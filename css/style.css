@@ -11,6 +11,13 @@ body{
   margin:auto;
   overflow:hidden;
 }
+.container--titre {
+  font-family:Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+}
+.container--para {
+  font-style: italic;
+}
 
 ul{
   margin:0;
@@ -31,16 +38,17 @@ ul{
 .dark{
   padding:15px;
   border-radius: 5px;
-  background:#498cb6;
-  color:#ffffff;
+  background:#c4cbcf;
+  color:#0c0b0b;
   margin-top:10px;
   margin-bottom:10px;
+  font-style: italic;
 }
 
 /* Header **/
 header{
   background:#2079b1;
-  color:#ffffff;
+  color:#131212;
   padding-top:30px;
   min-height:70px;
   border-bottom:#e8491d 3px solid;
@@ -84,12 +92,12 @@ header a:hover{
 
 /* Showcase */
 #showcase{
-  min-height:400px;
-  background:url('../img/showcase.jpg') no-repeat 0 -400px;
+  /* min-height:400px; */
+  background:url('../img/pexels-luis-gomes-546819.jpg') no-repeat 0 -400px;
 
 
   text-align:center;
-  color:#ffffff;
+  /* color:#ffffff; */
 }
 
 #showcase h1{
@@ -130,6 +138,14 @@ header a:hover{
 #boxes{
   margin-top:20px;
 }
+.box--titre{
+  font-weight: bold;
+  color: #e8491d;
+}
+.box--para {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
 
 #boxes .box{
   float:left;
@@ -168,6 +184,15 @@ ul#services li{
   border: #eee8e8 solid 1px;
   margin-bottom:5px;
   background:#e6e6e6;
+}
+
+.service--parag {
+  font-weight: bold;
+
+}
+.service--titre{
+  font-family: 'Work Sans', sans-serif;
+  color: #daa127;
 }
 
 footer{
